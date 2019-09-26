@@ -1,0 +1,14 @@
+<div class="card p-3 animated fadeIn fast card-size">
+    <img [src]="product.img" class="card-img-top mx-auto d-block" [alt]="product.nombre">
+    <div class="card-body">
+        <h5 class="card-title">{{ product.productName }}</h5>
+        <p class="card-text">{{ product.description }}</p>
+        <div class="space-between-horiz">
+            <p class="card-text"><small class="text-muted">{{ product.price }}</small></p>
+            <p class="card-text"><small class="text-muted">{{ product.stock }}</small></p>
+        </div>
+
+        <button (click)="addProduct()" type="button" class="btn btn-outline-primary btn-block">Look more...</button>
+        <!-- <a [routerLink]="['/heroe',i]" class="btn btn-outline-primary btn-block">Choose me</a> -->
+    </div>
+</div>

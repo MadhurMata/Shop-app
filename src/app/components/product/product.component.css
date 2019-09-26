@@ -1,0 +1,15 @@
+.space-between-horiz {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 15vw;
+}
+
+.card-size {
+    width: 20vw;
+    padding: 20px;
+    height: 100%;
+    margin: 10px 10px;
+}
